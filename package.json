@@ -1,5 +1,6 @@
 {
-  "name": "git-branch-cleaner",
+  "name": "scl339-git-branch-cleaner",
+  "publishConfig": { "access": "public" },
   "version": "1.0.0",
   "description": "Interactive CLI to clean up local Git branches — merged branches, stale branches (no commit in 30 days), or user-selected. Dry-run mode, safety confirmations.",
   "bin": {

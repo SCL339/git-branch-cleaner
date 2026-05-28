@@ -1,0 +1,43 @@
+{
+  "name": "git-branch-cleaner",
+  "version": "1.0.0",
+  "description": "Interactive CLI to clean up local Git branches — merged branches, stale branches (no commit in 30 days), or user-selected. Dry-run mode, safety confirmations.",
+  "bin": {
+    "git-branch-cleaner": "./bin/git-branch-cleaner.js"
+  },
+  "main": "lib/cleaner.js",
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "keywords": [
+    "git-branch-cleaner",
+    "git-cleanup",
+    "git-branch",
+    "branch-delete",
+    "git-housekeeping",
+    "stale-branches",
+    "merged-branches",
+    "git-tools",
+    "developer-tools",
+    "cli-tool"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SCL339/git-branch-cleaner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SCL339/git-branch-cleaner/issues"
+  },
+  "homepage": "https://github.com/SCL339/git-branch-cleaner#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "inquirer": "^12.0.0",
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0"
+  }
+}
